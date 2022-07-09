@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background-color: lightgrey;
+    float: center;
+    margin: 1rem;
+    
+}
+#menu_bio{
+    float: left;
+    width: 95%;
+}
+
+
+.menuSuperior {
+    list-style-type: none;
+    text-align: center;
+}
+
+.menuSuperior li {
+    display: inline-block;
+    padding: 1, 5px;
+}
+
+p {
+    color: rgb(6, 6, 6);
+}
+
+.menuSuperior a {
+    text-decoration: none;
+    text-transform:uppercase;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+
+
+
+#textoBlanco {
+    background-color: rgb(181, 198, 210);
+    float: center;
+    text-align: center;
+    margin: 10px;
+    font-style: italic;
+    font-weight: 600;
+    
+}
+
+
+header {
+    background-color: #708181;
+    text-align: center;
+    border-bottom: 3px;
+    margin: 30px;
+}
+
+.fondoGris {
+    background-color: cadetblue;
+}
+
+
+nav {
+    height: 100px;
+    
+    
+    border-bottom: 3px solid;
+    color: black;
+
+
+}
+
+.blanco {
+    color: white (248, 248, 255);
+}
+
+footer {
+    background-color: #708181;
+}
+
+#fotoig{width: 2%;
+}
+#flickr{
+    width: 2%;
+    }
+#fotoperfil{border-image-width: 580px;
+height: 460px;
+}
+
+#textoBio{text-align:right;
+
+
+
+}
+aside{
+    float: right;
+    width: 20%;
+    font-weight: 600 ;
+/* formato galeria*/
+}
+#galeriamuseo{
+    display: flex;
+    justify-content: center;
+}
