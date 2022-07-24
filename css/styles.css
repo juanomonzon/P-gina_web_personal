@@ -9,9 +9,10 @@ body {
     background-color: lightgrey;
     float: center;
     margin: 1rem;
-    
+
 }
-#menu_bio{
+
+#menu_bio {
     float: left;
     width: 95%;
 }
@@ -20,11 +21,15 @@ body {
 .menuSuperior {
     list-style-type: none;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
 }
 
 .menuSuperior li {
     display: inline-block;
     padding: 1, 5px;
+
 }
 
 p {
@@ -33,12 +38,15 @@ p {
 
 .menuSuperior a {
     text-decoration: none;
-    text-transform:uppercase;
+    text-transform: uppercase;
     background-color: black;
     color: white;
     padding: 1rem;
     font-weight: 600;
+    margin: 50px;
+
 }
+
 
 
 
@@ -50,7 +58,7 @@ p {
     margin: 10px;
     font-style: italic;
     font-weight: 600;
-    
+
 }
 
 
@@ -68,8 +76,6 @@ header {
 
 nav {
     height: 100px;
-    
-    
     border-bottom: 3px solid;
     color: black;
 
@@ -84,27 +90,60 @@ footer {
     background-color: #708181;
 }
 
-#fotoig{width: 2%;
-}
-#flickr{
+#fotoig {
     width: 2%;
-    }
-#fotoperfil{border-image-width: 580px;
-height: 460px;
 }
 
-#textoBio{text-align:right;
+#flickr {
+    width: 2%;
+}
+
+#fotoperfil {
+    border-image-width: 580px;
+    height: 460px;
+}
+
+#textoBio {
+    text-align: right;
 
 
 
 }
-aside{
+
+aside {
     float: right;
     width: 20%;
-    font-weight: 600 ;
-/* formato galeria*/
+    font-weight: 600;
+    /* formato galeria*/
 }
-#galeriamuseo{
-    display: flex;
-    justify-content: center;
+
+
+.cards {
+    display: grid;
+    gap: 2rem;
+
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    margin: 20px;
+    align-items: center;
 }
+
+@media screen and (min-width: 576px) {
+    .menuSuperior {
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+
+    }
+}
+@media (hover:hover){
+    .menulinks{
+        color: chartreuse;
+    }
+}
+@media screen and (max-width: 300px){
+    .fotomuseo{
+width: auto;
+    }
+} 
+  
+       
